@@ -27,27 +27,27 @@ We've provided you with a console that you can use to test your code. To enter a
 
 ### Basic methods
 
-- `Customer.all`
+- `Customer.all` - done
   - should return **all** of the customer instances
-- `Restaurant.all`
+- `Restaurant.all` - done
   - returns an array of all restaurants
-- `Review.all`
+- `Review.all` -done
   - returns all of the reviews
   
 ### Associations and Aggregate Methods
 
 #### Customer
 
-- `Customer#add_review(restaurant, content, rating)`
+- `Customer#add_review(restaurant, content, rating)` - done
   - given a **restaurant object**, some review content (as a string), and a star rating (as an integer), creates a new review and associates it with that customer and restaurant.
-- `Customer#num_reviews`
+- `Customer#num_reviews` - done
   - Returns the total number of reviews that a customer has authored
-- `Customer#restaurants`
+- `Customer#restaurants` - done
   - Returns a **unique** array of all restaurants a customer has reviewed
 
 #### Restaurant
 
-- `Restaurant#customers`
+- `Restaurant#customers` - done
   - Returns a **unique** list of all customers who have reviewed a particular restaurant.
 - `Restaurant#reviews`
   - returns an array of all reviews for that restaurant
@@ -74,7 +74,7 @@ We've provided you with a console that you can use to test your code. To enter a
 
 #### Build out the following methods on the `Review` class
 
-- `Review#customer`
+- `Review#customer` - working on it
   - returns the customer object for that given review
   - Once a review is created, I should not be able to change the author
 - `Review#restaurant`
